@@ -36,20 +36,20 @@ Visto che dimentico sempre qualcosa, decido di appuntarmi tutto ciò che manca i
 - dirigersi al supermercato
 - SE arrivato al supermercato
   - prendere un carrello
-  - FINCHE non ho depennato tutti i prodotti dalla lista o budget meno parziale è uguale a zero
+  - FINO A QUANDO non ho depennato tutti i prodotti dalla lista o budget meno parziale è uguale a zero
     - cerco il primo prodotto non depennato della lista
       - SE è disponibile e il suo prezzo è minore uguale a budget meno parziale
         - metto il prodotto nel carrello
         - aggiungo il suo prezzo a parziale
     - depenno il prodotto dalla lista
-  - FINCHE budget meno parziale è maggiore di zero e ho cercato uno snack meno di cinque volte
+  - FINO A QUANDO budget meno parziale è maggiore di zero e ho cercato uno snack meno di cinque volte
     - cerco uno snack che mi piace
     - SE è disponibile e il suo prezzo è minore uguale a budget meno parziale
         - metto il prodotto nel carrello
         - aggiungo il suo prezzo a parziale
   - vado alla cassa
   - svuoto il carrello sulla cassa
-  - FINCHE tutti i prodotti sulla cassa non sono stati scannerizzati
+  - FINO A QUANDO tutti i prodotti sulla cassa non sono stati scannerizzati
     - metto i prodotti già scannerizzati nella busta della spesa
   - pago 
   - SE ci sono ancora prodotti da imbustare
@@ -69,3 +69,28 @@ Finalmente sono riuscito a ritrovare quella pratica che sembrava essere svanita 
 
 ---
 #### Svolgimento
+
+- prendere la pratica
+- SE le pagine non sono ordinate
+  - ordinare le pagine
+- andare allo scanner
+- SE è spento
+  - accenderlo
+- SE lo scanner non funziona
+  - chiamare il tecnico per farlo aggiustare
+  - fare altro
+- tenere la prima pagina della pratica di fronte
+- FINO A QUANDO non è stata scannerizzata l'ultima pagina della pratica
+  - posizionare a faccia in giù all'interno dello scanner la pagina corrente
+  - avviare la scannerizzazione
+  - FINO A QUANDO non è finita 
+    - attendere per un massimo di un minuto
+  - verificare la qualità
+  - FINO A QUANDO la qualità non è accettabile
+    - ripetere la scansione
+    - SE la scasione è stata ripetuta per 5 volte
+      - chiamare il tecnico per far aggiustare lo scanner
+      - fare altro
+  - girare la pagina
+- salvare le scansioni in una cartella
+- aggiungere la cartella all'archivio digitale
