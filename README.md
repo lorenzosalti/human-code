@@ -25,7 +25,8 @@ Visto che dimentico sempre qualcosa, decido di appuntarmi tutto ciò che manca i
 - leggere coupon
   - SE scaduto
     - gettare il coupon nella spazzatura
-  - ALTRIMENTI aggiungere il valore del coupon al budget
+  - ALTRIMENTI 
+    - aggiungere il valore del coupon al budget
 - aprire il portafoglio
 - contare i soldi nel portafoglio
   - aggiungere al budget la cifra risultante
