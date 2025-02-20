@@ -85,6 +85,11 @@ Finalmente sono riuscito a ritrovare quella pratica che sembrava essere svanita 
   - avviare la scannerizzazione
   - FINO A QUANDO non è finita 
     - attendere per un massimo di un minuto
+    - SE è passato un minuto e la scannerizzazione non è finita
+      - verificare che lo scanner sia anocra funzionante
+      - SE lo scanner non è funzionante
+        - chiamare il tecnico per farlo aggiustare
+        - fare altro
   - verificare la qualità
   - FINO A QUANDO la qualità non è accettabile
     - ripetere la scansione
